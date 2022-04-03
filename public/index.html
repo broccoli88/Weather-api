@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" type="text/css" />
+    <script src="api.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="weather-app">
+      <div class="weather-window">
+        <div class="location">
+          <h3 class="city">London</h3>
+          <h4 class="country">England</h4>
+        </div>
+
+        <ul>
+          <li>
+            <h4 class="condition">Cloudy</h4>
+            <span>
+              <img class="icon" src="./images/116.png" alt="" />
+            </span>
+          </li>
+          <li class="temp">
+            <span>
+              <h2 class="temp-c">15&#176;C</h2>
+            </span>
+            <span>
+              <h2 class="temp-f">15&#176;F</h2>
+            </span>
+          </li>
+          <li>
+            <span class="time">06:09</span>
+            <span class="date">06/07/2022</span>
+          </li>
+        </ul>
+      </div>
+      <div class="search-window">
+        <form class="search">
+          <input type="text" placeholder="Check city..." id="check-city" />
+          <button type="submit" class="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
